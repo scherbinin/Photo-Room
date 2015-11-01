@@ -1,0 +1,546 @@
+﻿<?xml version="1.0"?>
+<psf:PrintCapabilities xmlns:psf="http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1" xmlns:ns0000="http://schemas.microsoft.com/windows/printing/oemdriverpt/DS_RX1/6.1.7601.17514/" xmlns:psk="http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
+  <psf:ParameterDef name="ns0000:PageDevmodeSnapshot">
+    <psf:Property name="psf:DataType">
+      <psf:Value xsi:type="xsd:QName">xsd:string</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:UnitType">
+      <psf:Value xsi:type="xsd:string">base64</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:DefaultValue">
+      <psf:Value xsi:type="xsd:string">RABTAC0AUgBYADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAbcAPADQ++BBwIAewAZBBkGZAABAA8ALAECAAEALAECAAEAKAA2AHgANAApAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAgAAAAEAAAD/////AAAAAAAAAAAAAAAAAAAAAERJTlUiADgBdAN8AOoKgPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAABAAAABAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAOAEAAFNNVEoAAAAAEAAoAUQAUwAtAFIAWAAxAAAASW5wdXRCaW4ARk9STVNPVVJDRQBSRVNETEwAVW5pcmVzRExMAE9yaWVudGF0aW9uAExBTkRTQ0FQRV9DQzI3MABSZXNvbHV0aW9uAE9wdGlvbjEAUGFwZXJTaXplAFBDAFByaW50TWFyZ2luAE1hcmdpbk9mZgBPVkVSQ09BVFRZUEUAT1BUWVBFX01BVFRFMQBQUklOVEJVRkZDT05UUk9MAFBCQ19DTEVBUgBDVVRURVJDT05UUk9MAENVVF9TVEFOREFSRABNZWRpYVR5cGUAU1RBTkRBUkQAQ29sb3JNb2RlADI0YnBwAEhhbGZ0b25lAEhUX1BBVFNJWkVfU1VQRVJDRUxMX00AAAAAAAAAAAAAAAAAAAAAfAAAAFRGU00EAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAP////8AAAAAAQAAAAcAAAAAAAAAAAAAAA==</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:Mandatory">
+      <psf:Value xsi:type="xsd:QName">psk:Optional</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:MinLength">
+      <psf:Value xsi:type="xsd:integer">0</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:MaxLength">
+      <psf:Value xsi:type="xsd:integer">174760</psf:Value>
+    </psf:Property>
+  </psf:ParameterDef>
+  <psf:Feature name="psk:PageICMRenderingIntent">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Значения по умолчанию</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:AbsoluteColorimetric" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Соответствие</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:RelativeColorimetric" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Корректура</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:Photographs" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Изображения</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:BusinessGraphics" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Графика</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:PageColorManagement">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Соответствие цветов изображений (ICM)</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:None" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">ICM отключено</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:System" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">ICM обрабатывается компьютером</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:Driver" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">ICM обрабатывается принтером</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:DocumentCollate">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Разобрать по копиям</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:Collated" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Да</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:Uncollated" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Нет</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:ParameterDef name="psk:JobCopiesAllDocuments">
+    <psf:Property name="psf:DataType">
+      <psf:Value xsi:type="xsd:QName">xsd:integer</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:UnitType">
+      <psf:Value xsi:type="xsd:string">copies</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:Multiple">
+      <psf:Value xsi:type="xsd:integer">1</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:MaxValue">
+      <psf:Value xsi:type="xsd:integer">9999</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:MinValue">
+      <psf:Value xsi:type="xsd:integer">1</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:DefaultValue">
+      <psf:Value xsi:type="xsd:integer">1</psf:Value>
+    </psf:Property>
+    <psf:Property name="psf:Mandatory">
+      <psf:Value xsi:type="xsd:QName">psk:Unconditional</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Число копий</psf:Value>
+    </psf:Property>
+  </psf:ParameterDef>
+  <psf:Feature name="psk:JobNUpAllDocumentsContiguously">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Страниц на листе</psf:Value>
+    </psf:Property>
+    <psf:Option constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">1</psf:Value>
+      </psf:Property>
+      <psf:ScoredProperty name="psk:PagesPerSheet">
+        <psf:Value xsi:type="xsd:integer">1</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psf:IdentityOption">
+        <psf:Value xsi:type="xsd:string">True</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">2</psf:Value>
+      </psf:Property>
+      <psf:ScoredProperty name="psk:PagesPerSheet">
+        <psf:Value xsi:type="xsd:integer">2</psf:Value>
+      </psf:ScoredProperty>
+    </psf:Option>
+    <psf:Option constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">4</psf:Value>
+      </psf:Property>
+      <psf:ScoredProperty name="psk:PagesPerSheet">
+        <psf:Value xsi:type="xsd:integer">4</psf:Value>
+      </psf:ScoredProperty>
+    </psf:Option>
+    <psf:Option constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">6</psf:Value>
+      </psf:Property>
+      <psf:ScoredProperty name="psk:PagesPerSheet">
+        <psf:Value xsi:type="xsd:integer">6</psf:Value>
+      </psf:ScoredProperty>
+    </psf:Option>
+    <psf:Option constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">9</psf:Value>
+      </psf:Property>
+      <psf:ScoredProperty name="psk:PagesPerSheet">
+        <psf:Value xsi:type="xsd:integer">9</psf:Value>
+      </psf:ScoredProperty>
+    </psf:Option>
+    <psf:Option constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">16</psf:Value>
+      </psf:Property>
+      <psf:ScoredProperty name="psk:PagesPerSheet">
+        <psf:Value xsi:type="xsd:integer">16</psf:Value>
+      </psf:ScoredProperty>
+    </psf:Option>
+    <psf:Feature name="psk:PresentationDirection">
+      <psf:Property name="psf:SelectionType">
+        <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+      </psf:Property>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Страниц на листе</psf:Value>
+      </psf:Property>
+      <psf:Option name="psk:RightBottom" constrained="psk:None">
+        <psf:Property name="psk:DisplayName">
+          <psf:Value xsi:type="xsd:string">Направо, затем вниз</psf:Value>
+        </psf:Property>
+      </psf:Option>
+      <psf:Option name="psk:BottomRight" constrained="psk:None">
+        <psf:Property name="psk:DisplayName">
+          <psf:Value xsi:type="xsd:string">Вниз, затем направо</psf:Value>
+        </psf:Property>
+      </psf:Option>
+      <psf:Option name="psk:LeftBottom" constrained="psk:None">
+        <psf:Property name="psk:DisplayName">
+          <psf:Value xsi:type="xsd:string">Налево, затем вниз</psf:Value>
+        </psf:Property>
+      </psf:Option>
+      <psf:Option name="psk:BottomLeft" constrained="psk:None">
+        <psf:Property name="psk:DisplayName">
+          <psf:Value xsi:type="xsd:string">Вниз, затем налево</psf:Value>
+        </psf:Property>
+      </psf:Option>
+    </psf:Feature>
+    <psf:Feature name="ns0000:Borders">
+      <psf:Property name="psf:SelectionType">
+        <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+      </psf:Property>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">В рамке</psf:Value>
+      </psf:Property>
+      <psf:Option name="ns0000:Off" constrained="psk:None">
+        <psf:Property name="psk:DisplayName">
+          <psf:Value xsi:type="xsd:string">Нет</psf:Value>
+        </psf:Property>
+      </psf:Option>
+      <psf:Option name="ns0000:On" constrained="psk:None">
+        <psf:Property name="psk:DisplayName">
+          <psf:Value xsi:type="xsd:string">Да</psf:Value>
+        </psf:Property>
+      </psf:Option>
+    </psf:Feature>
+  </psf:Feature>
+  <psf:Feature name="psk:PageMediaSize">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Размер бумаги</psf:Value>
+    </psf:Property>
+    <psf:Option name="ns0000:PR_L" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">92100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">131000</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">PR (3.5x5)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:PR_4x6" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">104900</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">156100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">PR (4x6)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:PR_4x6x2" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">104900</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">156100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">PR (4x6) x 2</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:L" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">131000</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">92100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">(5x3.5)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:PC" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">156100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">104900</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">(6x4)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:_2L" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">131000</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">181000</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">(5x7)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:A5STD" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">156100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">206200</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">(6x8)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:_6x4x2" constrained="psk:None">
+      <psf:ScoredProperty name="psk:MediaSizeWidth">
+        <psf:Value xsi:type="xsd:integer">156100</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:MediaSizeHeight">
+        <psf:Value xsi:type="xsd:integer">104900</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">(6x4) x 2</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:JobInputBin">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Подача бумаги</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:AutoSelect" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Автовыбор</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:PageOrientation">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Ориентация</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:Portrait" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Книжная</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:Landscape" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Альбомная</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:PageResolution">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Разрешение</psf:Value>
+    </psf:Property>
+    <psf:Option name="ns0000:Option1" constrained="psk:None">
+      <psf:ScoredProperty name="psk:ResolutionX">
+        <psf:Value xsi:type="xsd:integer">300</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:ResolutionY">
+        <psf:Value xsi:type="xsd:integer">300</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">300 x 300dpi </psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:Option2" constrained="psk:None">
+      <psf:ScoredProperty name="psk:ResolutionX">
+        <psf:Value xsi:type="xsd:integer">300</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:ResolutionY">
+        <psf:Value xsi:type="xsd:integer">600</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">300 x 600dpi </psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:Option3" constrained="psk:None">
+      <psf:ScoredProperty name="psk:ResolutionX">
+        <psf:Value xsi:type="xsd:integer">600</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:ResolutionY">
+        <psf:Value xsi:type="xsd:integer">600</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">600 x 600dpi </psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="ns0000:DocumentPrintMargin">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Border</psf:Value>
+    </psf:Property>
+    <psf:Option name="ns0000:MarginOn" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Enable</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:MarginOff" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Disable</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="ns0000:DocumentOVERCOATTYPE">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Overcoat Finish</psf:Value>
+    </psf:Property>
+    <psf:Option name="ns0000:OPTYPE_LUSTER" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Glossy</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:OPTYPE_MATTE1" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Matte</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="ns0000:DocumentPRINTBUFFCONTROL">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Print Re-try</psf:Value>
+    </psf:Property>
+    <psf:Option name="ns0000:PBC_CLEAR" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Disable</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:PBC_NONCLEAR" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Enable</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="ns0000:DocumentCUTTERCONTROL">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">2inch cut</psf:Value>
+    </psf:Property>
+    <psf:Option name="ns0000:CUT_STANDARD" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Disable</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="ns0000:CUT_2INCH" constrained="psk:None">
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Enable (Printer V.1.10 or later)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:PageMediaType">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Тип носителя</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:Plain" constrained="psk:None">
+      <psf:ScoredProperty name="psk:BackCoating">
+        <psf:Value xsi:type="xsd:QName">psk:None</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:FrontCoating">
+        <psf:Value xsi:type="xsd:QName">psk:None</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:Material">
+        <psf:Value xsi:type="xsd:QName">psk:Paper</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:PrePrinted">
+        <psf:Value xsi:type="xsd:QName">psk:None</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:PrePunched">
+        <psf:Value xsi:type="xsd:QName">psk:None</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:Recycled">
+        <psf:Value xsi:type="xsd:QName">psk:None</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Простая бумага</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Feature name="psk:PageOutputColor">
+    <psf:Property name="psf:SelectionType">
+      <psf:Value xsi:type="xsd:QName">psk:PickOne</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:DisplayName">
+      <psf:Value xsi:type="xsd:string">Режим цветной печати</psf:Value>
+    </psf:Property>
+    <psf:Option name="psk:Color" constrained="psk:None">
+      <psf:ScoredProperty name="psk:DeviceBitsPerPixel">
+        <psf:Value xsi:type="xsd:integer">24</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:DriverBitsPerPixel">
+        <psf:Value xsi:type="xsd:integer">24</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">True Color (24 разряда)</psf:Value>
+      </psf:Property>
+    </psf:Option>
+    <psf:Option name="psk:Grayscale" constrained="psk:None">
+      <psf:ScoredProperty name="psk:DeviceBitsPerPixel">
+        <psf:Value xsi:type="xsd:integer">24</psf:Value>
+      </psf:ScoredProperty>
+      <psf:ScoredProperty name="psk:DriverBitsPerPixel">
+        <psf:Value xsi:type="xsd:integer">24</psf:Value>
+      </psf:ScoredProperty>
+      <psf:Property name="psk:DisplayName">
+        <psf:Value xsi:type="xsd:string">Монохромный</psf:Value>
+      </psf:Property>
+    </psf:Option>
+  </psf:Feature>
+  <psf:Property name="psk:PageImageableSize">
+    <psf:Property name="psk:ImageableSizeWidth">
+      <psf:Value xsi:type="xsd:integer">104986</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:ImageableSizeHeight">
+      <psf:Value xsi:type="xsd:integer">156125</psf:Value>
+    </psf:Property>
+    <psf:Property name="psk:ImageableArea">
+      <psf:Property name="psk:OriginWidth">
+        <psf:Value xsi:type="xsd:integer">0</psf:Value>
+      </psf:Property>
+      <psf:Property name="psk:OriginHeight">
+        <psf:Value xsi:type="xsd:integer">0</psf:Value>
+      </psf:Property>
+      <psf:Property name="psk:ExtentWidth">
+        <psf:Value xsi:type="xsd:integer">104986</psf:Value>
+      </psf:Property>
+      <psf:Property name="psk:ExtentHeight">
+        <psf:Value xsi:type="xsd:integer">156125</psf:Value>
+      </psf:Property>
+    </psf:Property>
+  </psf:Property>
+</psf:PrintCapabilities>

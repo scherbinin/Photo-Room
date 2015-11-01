@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoRoom", "FotoRoom\FotoRoom.csproj", "{623B5C96-CB3D-40BD-9A01-1E7A3C1F636C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanonSDKWorker", "CanonSDKWorker\CanonSDKWorker.csproj", "{8E260E87-2F21-49A6-A6DB-B3E643E41FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreComponents", "Common\CoreComponents.csproj", "{A38DCB3B-2992-4A2C-B519-C1685FD9A7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{1E48BAC7-06E7-43F2-BEB4-A3F9C7A44F43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{623B5C96-CB3D-40BD-9A01-1E7A3C1F636C}.Debug|x86.ActiveCfg = Debug|x86
+		{623B5C96-CB3D-40BD-9A01-1E7A3C1F636C}.Debug|x86.Build.0 = Debug|x86
+		{623B5C96-CB3D-40BD-9A01-1E7A3C1F636C}.Release|x86.ActiveCfg = Release|x86
+		{623B5C96-CB3D-40BD-9A01-1E7A3C1F636C}.Release|x86.Build.0 = Release|x86
+		{8E260E87-2F21-49A6-A6DB-B3E643E41FBC}.Debug|x86.ActiveCfg = Debug|x86
+		{8E260E87-2F21-49A6-A6DB-B3E643E41FBC}.Debug|x86.Build.0 = Debug|x86
+		{8E260E87-2F21-49A6-A6DB-B3E643E41FBC}.Release|x86.ActiveCfg = Release|x86
+		{8E260E87-2F21-49A6-A6DB-B3E643E41FBC}.Release|x86.Build.0 = Release|x86
+		{A38DCB3B-2992-4A2C-B519-C1685FD9A7D5}.Debug|x86.ActiveCfg = Debug|x86
+		{A38DCB3B-2992-4A2C-B519-C1685FD9A7D5}.Debug|x86.Build.0 = Debug|x86
+		{A38DCB3B-2992-4A2C-B519-C1685FD9A7D5}.Release|x86.ActiveCfg = Release|x86
+		{A38DCB3B-2992-4A2C-B519-C1685FD9A7D5}.Release|x86.Build.0 = Release|x86
+		{1E48BAC7-06E7-43F2-BEB4-A3F9C7A44F43}.Debug|x86.ActiveCfg = Debug|x86
+		{1E48BAC7-06E7-43F2-BEB4-A3F9C7A44F43}.Debug|x86.Build.0 = Debug|x86
+		{1E48BAC7-06E7-43F2-BEB4-A3F9C7A44F43}.Release|x86.ActiveCfg = Release|x86
+		{1E48BAC7-06E7-43F2-BEB4-A3F9C7A44F43}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

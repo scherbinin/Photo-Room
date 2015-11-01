@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="623B5C96-CB3D-40BD-9A01-1E7A3C1F636C" ModuleId="FotoRoom" />
+  <Module PersistentId="8E260E87-2F21-49A6-A6DB-B3E643E41FBC" ModuleId="CanonSDKWorker" />
+  <Module PersistentId="A38DCB3B-2992-4A2C-B519-C1685FD9A7D5" ModuleId="CoreComponents" />
+  <Module PersistentId="1E48BAC7-06E7-43F2-BEB4-A3F9C7A44F43" ModuleId="test" />
+</Modules>
