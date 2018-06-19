@@ -51,8 +51,8 @@ namespace Common.Services
 тел. 8 (831) 283 90 83, 8 (930) 283 90 83 (Нижний Новгород)
        8 (8352) 377 397 (Чебоксары и Йошкар-Ола)";
 
-        private const string MailFrom = "photor00m@mail.ru";
-        private const string MailPass = "hf,jxbqgfhjkm";
+        private const string MailFrom = "1@mail.ru";
+        private const string MailPass = "";
 
         /// <summary>
         /// Проверка на доступность сети
